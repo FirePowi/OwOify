@@ -151,7 +151,7 @@ class OwO {
     }
     // OwO
     if (this.rltow) {
-      text = text.replace(/[rl]/gi, match =>
+      text = text.replace(/[rlw]/gi, match =>
         match.charCodeAt(0) < 97 ? 'W' : 'ω'
       )
     }
