@@ -21,7 +21,21 @@ class OwO {
         god: 'gosh',
         dick: 'peepee',
         penis: 'peepee',
-        damn: 'darn'
+        bite: 'peepee',
+        damn: 'darn',
+        ms: 'modam',
+        hi: 'henwo',
+        my: 'me',
+        gonna: 'gwonna',
+        go: 'gwo',
+        to: 'twoo',
+        you: 'U >///<',
+        much: 'moosh',
+        clit: 'kwito',
+        clito: 'kwito',
+        clitoris: 'kwito',
+        suck: 'swoopwy nwom nwom',
+        sucking: 'swoopwing nwom swoop swoop'
       },
       doStutter: true,
       stutterChance: 0.1,
@@ -61,7 +75,15 @@ class OwO {
         '>3<',
         'murr~',
         'UwU',
-        '*gwomps*'
+        '*gwomps*',
+        "OwO",
+        "ÔwÔ",
+        "ÔωÔ",
+        "UωU",
+        "OωO",
+        "^ω^",
+        "°ω°",
+        "éωè"
       ]
     }
     for (let key in defaults) {
@@ -104,7 +126,7 @@ class OwO {
     // OwO
     if (this.rltow) {
       text = text.replace(/[rl]/gi, match =>
-        match.charCodeAt(0) < 97 ? 'W' : 'w'
+        match.charCodeAt(0) < 97 ? 'W' : 'ω'
       )
     }
     // Nya >;3
@@ -116,7 +138,7 @@ class OwO {
     // Repeaty wepeaty
     if (this.repeaty) {
       text = text.replace(/\b(?=.*[aeiou])(?=[a-vx-z])[a-z]{4,}y\b/gi, match =>
-        `${match} ${match.charCodeAt(0) < 97 ? 'W' : 'w'}${match.match(/.[aeiouy].*/i)[0].slice(1)}`
+        `${match} ${match.charCodeAt(0) < 97 ? 'W' : 'ω'}${match.match(/.[aeiouy].*/i)[0].slice(1)}`
       )
     }
     // S-stutter
